@@ -7,7 +7,7 @@ import com.algaworks.algafood.di.notificacao.NotificadorEmail;
 import com.algaworks.algafood.di.service.AtivacaoClienteService;
 
 //@Configuration
-public class AlgaConfig {
+public class ClienteConfig {
 
 	@Bean
 	public NotificadorEmail notificadorEmail() {

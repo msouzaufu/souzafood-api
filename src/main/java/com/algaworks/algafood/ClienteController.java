@@ -8,11 +8,11 @@ import com.algaworks.algafood.di.modelo.Cliente;
 import com.algaworks.algafood.di.service.AtivacaoClienteService;
 
 @Controller
-public class MeuPrimeiroController {
+public class ClienteController {
 
 	private AtivacaoClienteService ativacaoClienteService;
 	
-	public MeuPrimeiroController(AtivacaoClienteService ativacaoClienteService) {
+	public ClienteController(AtivacaoClienteService ativacaoClienteService) {
 		this.ativacaoClienteService = ativacaoClienteService;
 		
 		System.out.println("MeuPrimeiroController: " + ativacaoClienteService);
